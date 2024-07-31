@@ -1,0 +1,11 @@
+Model Information:
+* title:	Technotron
+* source:	https://sketchfab.com/3d-models/technotron-3761d1f6f56d4a6499b64e63f64c9c96
+* author:	tamminen (https://sketchfab.com/tamminen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Technotron" (https://sketchfab.com/3d-models/technotron-3761d1f6f56d4a6499b64e63f64c9c96) by tamminen (https://sketchfab.com/tamminen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

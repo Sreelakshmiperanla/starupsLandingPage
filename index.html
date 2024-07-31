@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starry Background with Three.js</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        canvas { display: block; }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav .logo {
+            float: left;
+            display: flex;
+            align-items: center;
+        }
+        nav .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        nav .logo span {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: left;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        nav .auth-buttons {
+            float: right;
+            display: flex;
+            align-items: center;
+        }
+        nav .auth-buttons button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        nav .auth-buttons button.signin {
+            background-color: #555;
+        }
+    </style>
+    <!-- Load es-module-shims -->
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <!-- Define import map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/examples/jsm/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+    <!-- Import main.js script -->
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>STARUPS</span>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="signup">Sign Up</button>
+            <button class="signin">Sign In</button>
+        </div>
+    </nav>
+</body>
+</html>
